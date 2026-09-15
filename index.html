@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SwellFour — four-bar live swell desk</title>
+  <meta name="description" content="Four live bars of violin, cello, and french horn that swell into the hook. The chorus stops arriving naked." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+<main>
+  <p class="eyebrow">WorkinWithAI · live chairs</p>
+  <h1>SwellFour</h1>
+  <p class="lead">Four-bar swell desk. Bedroom tracks and Suno hooks often slam in with no air under them. Session players write the last four bars of the pre as a live swell: violin climb, cello floor, horn stack, hairpin, common-tone hold, late brass, hush then bloom, octave lift, pedal under, last-bar hit. Live violin, cello, french horn, grand, upright, nylon, kit. Not LiftTwo. Not LiftFour. Not ChoirEight. Not SlideTwo. Not StabFour.</p>
+  <p class="status" id="status">Seating chairs…</p>
+  <p class="eyebrow">Groove</p>
+  <div class="row" id="grooves"></div>
+  <p class="eyebrow">Swell</p>
+  <div class="row" id="recipes"></div>
+  <p class="eyebrow">Form · pocket 1–4 · swell 5–8</p>
+  <div class="bars" id="bars"></div>
+  <h2>Punch list</h2>
+  <pre id="punch"></pre>
+</main>
+<div class="dock">
+  <button id="playA">A · Pocket</button>
+  <button id="playB">B · Full form</button>
+  <button id="play8">8 · Swell</button>
+  <button class="ghost" id="stop">Stop</button>
+  <button class="ghost" id="copy">Copy punch</button>
+</div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

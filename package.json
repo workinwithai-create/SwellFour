@@ -1,0 +1,11 @@
+{
+  "name": "swellfour",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Four-bar live string-and-horn swell desk for unfinished hooks — violin, cello, french horn",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000"
+  },
+  "license": "MIT"
+}
